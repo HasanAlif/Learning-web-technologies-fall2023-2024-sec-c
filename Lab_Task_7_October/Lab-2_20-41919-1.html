@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <h1><i>Registration form</i></h1>
+    <hr/>
+</head>
+<body>
+    <form>
+        <div>
+            <fieldset>
+            <label for="name">Name</label><br/><br/>
+            <input type="text"id = "name"><br/><br/>
+            <input type="submit" value="Submit">
+            </fieldset>
+            
+
+        </div>
+        <br/>
+        <div>
+            <fieldset>
+                <label for="email">Email</label><br/><br/>
+                <input type="text"id = "email"><br/><br/>
+                <input type="submit" value="Submit">
+                </fieldset>
+        </div>
+        <br/>
+        <div>
+        <fieldset>
+            <span>Gender:</span>
+            <input type="radio" name="gender" id="Male">
+            <label for ="male">Male</label>
+            <input type="radio" name="gender" id="Female">
+            <label for ="Female">Female</label>
+            <input type="radio" name="Other" id="Other">
+            <label for = "Other">Other</label><br/><br/>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </div>
+        <br/>
+        <div>
+        <fieldset>
+            <label for="dob">Date of birth: </label>
+            <input type="date" id="dob" name="dob" /><br/><br/>
+            <input type="submit" value="Submit">
+        </fieldset>
+          </div>
+          <br/>
+          <div>
+            <fieldset>
+            <p>Degree:</p>
+            <div>
+              <input type="checkbox" id="SSC" />
+              <label for="SSC">SSC</label>
+            
+              <input type="checkbox" id="HSC" />
+              <label for="HSC">HSC</label>
+            
+              <input type="checkbox" id="BSc" />
+              <label for="BSc">BSc</label><br/><br/>
+              <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+          </div>
+          <br />
+          <div>
+            <fieldset>
+            <label for="blood group">Blood Group: </label>
+            <select name="blood group" id="blood group">
+              <option value="A+">A+</option>
+              <option value="B+">B+</option>
+              <option value="A-">A-</option>
+              <option value="B-">B-</option>
+              <option value="AB+">AB+</option>
+              <option value="AB-">AB-</option>
+            </select>
+            <br/><br/>
+            <input type="submit" value="Submit">
+        </fieldset>
+          </div>
+          <br/>
+          <div>
+            <fieldset>
+            <p>Profile Picture</p>
+            <label for="User Id">User Id : </label>
+            <input type="text" name="User Id" id="User Id">
+            <label for="profile">Select your image: </label>
+            <input type="image" id="profile" name="profile" />
+            <br /><br/>
+            <label for="file">Select a file: </label>
+            <input type="file" id="file" name="file" />
+            </fieldset>
+          </div>
+          <br/>
+
+          <div>
+            <fieldset>
+                <style>
+                    table,
+                    th,
+                    td {
+                      border: 1px solid;
+                      border-collapse: collapse;
+                    }
+                  </style>
+                  <table>
+                    <caption>
+                      Person Profile
+                    </caption>
+                    
+                    <tbody>
+                      <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text"id = "name"></td>
+                        <td>   </td>
+                      </tr>
+                      <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="text"id = "email"></td>
+                        <td>   </td>
+                      </tr>
+                      <tr>
+                        <td><span>Gender:</span></td>
+                        <td>
+                            <input type="radio" name="gender" id="Male">
+                             <label for ="male">Male</label>
+                            <input type="radio" name="gender" id="Female">
+                            <label for ="Female">Female</label>
+                             <input type="radio" name="Other" id="Other">
+                            <label for = "Other">Other</label><br/><br/>
+                            
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <label for="dob">Date of birth: </label>
+                        </td>
+                        <td>
+                            <input type="date" id="dob" name="dob" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            <label for="blood group">Blood Group: </label>
+                        </td>
+                        <td>
+                            <select name="blood group" id="blood group">
+                                <option value="A+">A+</option>
+                                <option value="B+">B+</option>
+                                <option value="A-">A-</option>
+                                <option value="B-">B-</option>
+                                <option value="AB+">AB+</option>
+                                <option value="AB-">AB-</option>
+                              </select>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            Degree: <br/>
+                        </td>
+                        <td>
+                            <input type="checkbox" id="SSC" />
+                            <label for="SSC">SSC</label>
+            
+                            <input type="checkbox" id="HSC" />
+                            <label for="HSC">HSC</label>
+            
+                            <input type="checkbox" id="BSc" />
+                            <label for="BSc">BSc</label><br/><br/>
+                            
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            Photo : <br/>
+                        </td>
+                        <td>
+                            
+                            <label for="file">Select a file: </label>
+                             <input type="file" id="file" name="file" />
+                        </td>
+
+                      </tr>
+                      <tr aria-rowspan="5">
+                        <td>
+                            
+                        </td>
+                        <td>
+
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                            
+                        </td>
+                        <td align="right">
+                            <button type="submit">Submit</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+        </fieldset>
+         </div>
+
+        </div>
+        
+    </form>
+    
+</body>
+</html>
